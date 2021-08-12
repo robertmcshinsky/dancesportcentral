@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import CardDeck from "../components/CardDeck";
+import Title from "../components/Title";
 
-function Home () {
+function Home() {
   return (
     <div>
-      <div>Home</div>
+      <Title></Title>
+      <CardDeck></CardDeck>
     </div>
   );
 }

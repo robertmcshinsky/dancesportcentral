@@ -4,6 +4,7 @@ import Post from '../components/Post'
 function Blog () {
   return (
     <div>
+      Blog
       <Post></Post>
     </div>
   );
